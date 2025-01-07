@@ -1,7 +1,7 @@
 "use client";
 
 import { EnvelopeIcon, PhoneIcon, TicketIcon } from "@heroicons/react/24/solid";
-import { H1, H4, Lead, Muted, P } from "@/components/ui/typography";
+import { H1, H4, Lead, P } from "@/components/ui/typography";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";

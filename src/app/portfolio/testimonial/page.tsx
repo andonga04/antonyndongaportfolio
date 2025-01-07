@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { H2, H3, H4, Lead, P } from "@/components/ui/typography";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { CardContent, Card } from "@/components/ui/card";
 
 

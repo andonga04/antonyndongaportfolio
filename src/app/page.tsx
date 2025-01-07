@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '@/components/footer';
 import Hero from './portfolio/hero/page';
 import Clients from './portfolio/clients/page';
 import Skills from './portfolio/skills/page';

@@ -4,11 +4,11 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import {
   ClerkProvider,
-  SignInButton,
+  // SignInButton,
   SignedIn,
   SignedOut,
-  UserButton, 
-  SignIn
+  // UserButton, 
+  // SignIn
 } from '@clerk/nextjs'
 import Footer from "@/components/footer";
 

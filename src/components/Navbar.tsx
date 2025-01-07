@@ -4,7 +4,6 @@ import { SignedIn, SignedOut } from "@clerk/nextjs";
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import React from 'react'
-import { MdHomeFilled } from "react-icons/md";
 import { RiHomeOfficeFill } from "react-icons/ri";
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { FcLibrary } from "react-icons/fc";
@@ -12,9 +11,8 @@ import { LiaBlogSolid } from "react-icons/lia";
 import {
   Collapsible,
 } from "@/components/ui/collapsible"
-import { Button } from './ui/button';
 import { Toggle } from "@/components/ui/toggle"
-import { H1, H2, H3, H4, P, Lead, Large, Muted, Blockquote, InlineCode } from "@/components/ui/typography"
+import {  H2 } from "@/components/ui/typography"
 import { SignInButton, UserButton } from '@clerk/nextjs';
 
 const navmenu = [

@@ -4,7 +4,7 @@ import {
   CardHeader,
   CardContent,
  } from "@/components/ui/card";
-import { H1, H2, Lead, P, H4 } from "@/components/ui/typography";
+import {  P, H4 } from "@/components/ui/typography";
 import { Button } from "./ui/button";
 
 interface ProjectCardProps {

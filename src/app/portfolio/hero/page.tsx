@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { H1, H2, H3, H4, P, Lead, Large, Muted, Blockquote, InlineCode } from "@/components/ui/typography"
+import { H1, P, Lead } from "@/components/ui/typography"
 import { Button } from '@/components/ui/button';
 import { Input } from "@/components/ui/input"
 

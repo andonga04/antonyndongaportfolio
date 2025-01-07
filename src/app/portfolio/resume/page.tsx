@@ -7,7 +7,7 @@ import {
   ArrowRightIcon,
 } from "@heroicons/react/24/solid";
 import  ResumeItem  from "@/components/resume-item";
-import { H2, Lead, P } from "@/components/ui/typography";
+import { H2,  P } from "@/components/ui/typography";
 import { Button } from "@/components/ui/button";
 
 
