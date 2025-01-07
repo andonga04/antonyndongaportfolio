@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/collapsible"
 import { Toggle } from "@/components/ui/toggle"
 import {  H2 } from "@/components/ui/typography"
-import { SignInButton, UserButton } from '@clerk/nextjs';
+// import { SignInButton, UserButton } from '@clerk/nextjs';
 
 const navmenu = [
   {
@@ -79,16 +79,6 @@ export function Navbar() {
             </NavLink>
           ))}
         </ul>
-        <SignedOut>
-        <div className="hidden lg:flex">
-          <SignInButton mode="modal" />
-        </div>
-      </SignedOut>
-      <SignedIn>
-        <div className="hidden lg:flex">
-          <UserButton showName />
-        </div>
-      </SignedIn>
 
         <Toggle
           variant="outline"
@@ -115,20 +105,6 @@ export function Navbar() {
           </NavLink>
         ))}
       </ul>
-      <SignedOut>
-      <div className="container mx-auto mt-3 border-t border-gray-200 px-2 pt-4">
-        <div className=" gap-2 items-center">
-          <SignInButton mode="modal" />
-        </div>
-      </div>
-      </SignedOut>
-      <SignedIn>
-      <div className="container mx-auto mt-3 border-t border-gray-200 px-2 pt-4">
-        <div className="flex flex-col gap-4 text-left ">
-          <UserButton showName />
-        </div>
-      </div>
-      </SignedIn>
     </div>
 
   </Collapsible>

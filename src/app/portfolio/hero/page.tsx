@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
           width={1024}
           height={1024}
           alt="Teamwork"
-          src="/images/me.jpg"
+          src="/image/me-2.jpg"
           className="h-[36rem] w-full rounded-xl object-cover"
         />
       </div>

@@ -7,12 +7,14 @@ import Testimonial from './portfolio/testimonial/page';
 import PopularClients from './portfolio/popular-clients/page';
 import ContactForm from './portfolio/contact-form/page';
 import ClientsPage from './portfolio/clients/page';
+import Navbar from '@/components/Navbar';
 
 
 const portfolio = () => {
   return (
     
     <>
+    <Navbar/>
     <Hero/>
     <ClientsPage/>
     <Skills/>
