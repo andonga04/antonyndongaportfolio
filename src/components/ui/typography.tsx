@@ -1,9 +1,9 @@
 import React from 'react';
 
-interface Props {
-    className?: string;
-    children: string;
-}
+// interface Props {
+//     className?: string;
+//     children: string;
+// }
 
 const H1: React.FC<{ className?: string; children: React.ReactNode }> = ({className, children}) => {
     return (

@@ -1,12 +1,12 @@
 import React from 'react'
 import Hero from './portfolio/hero/page';
-import Clients from './portfolio/clients/page';
 import Skills from './portfolio/skills/page';
 import Projects from './portfolio/projects/page';
 import Resume from './portfolio/resume/page';
 import Testimonial from './portfolio/testimonial/page';
 import PopularClients from './portfolio/popular-clients/page';
 import ContactForm from './portfolio/contact-form/page';
+import ClientsPage from './portfolio/clients/page';
 
 
 const portfolio = () => {
@@ -14,7 +14,7 @@ const portfolio = () => {
     
     <>
     <Hero/>
-    <Clients/>
+    <ClientsPage/>
     <Skills/>
     <Projects/>
     <Resume/>

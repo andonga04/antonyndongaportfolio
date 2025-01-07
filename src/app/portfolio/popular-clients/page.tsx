@@ -12,7 +12,7 @@ const CLIENTS = [
   "netflix",
 ];
 
-export function PopularClients() {
+export default function PopularClients() {
   return (
     <section className="py-8 px-8 lg:py-20">
       <div className="container mx-auto grid items-center place-items-center">
@@ -40,5 +40,3 @@ export function PopularClients() {
     </section>
   );
 }
-
-export default PopularClients;

@@ -7,7 +7,7 @@ import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { CardContent, Card } from "@/components/ui/card";
 
 
-export function Testimonial() {
+export default function Testimonial() {
   const [active, setActive] = React.useState(3);
 
   return (
@@ -90,4 +90,3 @@ export function Testimonial() {
   );
 }
 
-export default Testimonial;

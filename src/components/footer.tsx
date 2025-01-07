@@ -1,4 +1,4 @@
-import { Lead, P } from "@/components/ui/typography";
+import {  P } from "@/components/ui/typography";
 import { Button } from "./ui/button";
 
 const LINKS = ["Home", "About Us", "Blog", "Service"];

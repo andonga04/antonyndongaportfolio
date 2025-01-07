@@ -47,7 +47,7 @@ const PROJECTS = [
   },
 ];
 
-export function Projects() {
+export default function Projects() {
   return (
     <section className="py-28 px-8">
       <div className="container mx-auto mb-20 text-center">
@@ -71,5 +71,3 @@ export function Projects() {
     </section>
   );
 }
-
-export default Projects;

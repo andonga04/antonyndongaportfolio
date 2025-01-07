@@ -12,7 +12,7 @@ const CLIENTS = [
   "netflix",
 ];
 
-export function Clients() {
+export default function ClientsPage() {
   return (
     <section className="px-8 py-28">
       <div className="container mx-auto text-center">
@@ -35,5 +35,3 @@ export function Clients() {
     </section>
   );
 }
-
-export default Clients;

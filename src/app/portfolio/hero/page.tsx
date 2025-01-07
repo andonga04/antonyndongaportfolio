@@ -1,61 +1,60 @@
 "use client";
 
 import Image from "next/image";
-import { H1, P, Lead } from "@/components/ui/typography"
-import { Button } from '@/components/ui/button';
-import { Input } from "@/components/ui/input"
+import { H1, P, Lead } from "@/components/ui/typography";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 
-
-function Hero() {
+const Hero: React.FC = () => {
   return (
     <header className="bg-white p-8">
-      <div className="container mx-auto grid h-full gap-10 min-h-[60vh] w-full grid-cols-1 items-center lg:grid-cols-2">
+      <div className="container mx-auto grid min-h-[60vh] w-full gap-10 items-center lg:grid-cols-2">
+        {/* Text Content Section */}
         <div className="row-start-2 lg:row-auto">
-          <H1
-          // color="blue-gray"
-          className="mb-4 lg:text-5xl !leading-tight text-3xl"
-          >
-            Welcome to my Web <br /> Development Portofolio!
+          <H1 className="mb-4 text-3xl lg:text-5xl !leading-tight">
+            Welcome to my Web <br /> Development Portfolio!
           </H1>
-          <Lead
-          
-          className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
-          >
-            I&apos;m Antony Ndonga, a passionate web developer based in Kenya. Here,
-            you&apos;ll get a glimpse of my journey in the world of web
+          <Lead className="mb-4 !text-gray-500 md:pr-16 xl:pr-28">
+            I&apos;m Antony Ndonga, a passionate web developer based in Kenya.
+            Here, you&apos;ll get a glimpse of my journey in the world of web
             development, where creativity meets functionality.
           </Lead>
+
+          {/* Email Subscription Section */}
           <div className="grid">
-            <p
-            className="mb-2 text-gray-900 font-medium"
-            >
-              Your email
-            </p>
+            <p className="mb-2 font-medium text-gray-900">Your email</p>
             <div className="mb-2 flex w-full flex-col gap-4 md:w-10/12 md:flex-row">
-              {/* @ts-ignore */}
-              <Input type="email" placeholder="Enter Your Email" className="border"/>
-              <Button className="hover:bg-gray-100 text-white bg-black">
-                require offer
+              <Input
+                type="email"
+                placeholder="Enter Your Email"
+                className="border"
+              />
+              <Button className="bg-black text-white hover:bg-gray-100">
+                Request Offer
               </Button>
             </div>
           </div>
-          <P className="font-normal !text-gray-500">
+
+          {/* Terms and Conditions Link */}
+          <P className="!text-gray-500 font-normal">
             Read my{" "}
             <a href="#" className="font-medium underline transition-colors">
               Terms and Conditions
             </a>
           </P>
         </div>
+
+        {/* Image Section */}
         <Image
           width={1024}
           height={1024}
-          alt="team work"
+          alt="Teamwork"
           src="/images/me.jpg"
           className="h-[36rem] w-full rounded-xl object-cover"
         />
       </div>
     </header>
   );
-}
+};
 
 export default Hero;

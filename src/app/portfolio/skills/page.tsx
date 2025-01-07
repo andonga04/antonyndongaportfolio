@@ -1,6 +1,6 @@
 "use client";
 
-import { H1, H2, Lead, P } from "@/components/ui/typography";
+import { H1, H2, Lead, } from "@/components/ui/typography";
 import {
   RectangleGroupIcon,
   FingerPrintIcon,
@@ -50,7 +50,7 @@ const SKILLS = [
   },
 ];
 
-export function Skills() {
+export default function Skills() {
   return (
     <section className="px-8">
       <div className="container mx-auto mb-20 text-center">
@@ -77,5 +77,3 @@ export function Skills() {
     </section>
   );
 }
-
-export default Skills;
